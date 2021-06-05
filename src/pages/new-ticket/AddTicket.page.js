@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { Col, Container, Row } from "react-bootstrap"
 import { AddTicketForm } from "../../components/add-ticket-form/AddTicketForm.comp"
-import { BreadCrumb } from "../../components/breadcrumb/BreadCrumb.comp"
+import { PageBreadCrumb } from "../../components/breadcrumb/BreadCrumb.comp"
 import { shortText } from '../../utils/validation'
 
 const initialFrmDt = {
@@ -43,7 +43,7 @@ export const  AddTicket = () => {
     <Container>
       <Row>
         <Col>
-          <BreadCrumb page="New Ticket"/>
+          <PageBreadCrumb page="New Ticket"/>
         </Col>
       </Row>
       <Row>

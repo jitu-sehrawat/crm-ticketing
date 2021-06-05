@@ -1,6 +1,6 @@
 import { Breadcrumb } from 'react-bootstrap';
 
-export const BreadCrumb = ({page}) => {
+export const PageBreadCrumb = ({page}) => {
   return (
     <Breadcrumb>
       <Breadcrumb.Item href="/">Home</Breadcrumb.Item>

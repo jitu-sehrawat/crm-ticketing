@@ -1,6 +1,6 @@
 import { Col, Container, Row, Button } from "react-bootstrap";
 import { TicketTable } from "../../components/ticket-table/TicketTable.comp";
-import { BreadCrumb } from "../../components/breadcrumb/BreadCrumb.comp";
+import { PageBreadCrumb } from '../../components/breadcrumb/BreadCrumb.comp';
 
 import tickets from '../../assets/data/dummy-tickets.json';
 
@@ -9,7 +9,7 @@ export const Dashboard = () => {
     <Container>
       <Row>
         <Col>
-          <BreadCrumb page="Dashboard"/>
+          <PageBreadCrumb page="Dashboard"/>
         </Col>
       </Row>
       <Row>
